@@ -507,8 +507,13 @@ body {
   margin-top: 75px;
 }
 
+.top {
+  max-height: 700px;
+}
+
 .top__inner {
   padding-bottom: 70px;
+  max-height: 700px;
   position: relative;
 }
 
@@ -522,6 +527,10 @@ body {
   height: 547px;
   top: 0;
   z-index: -1;
+}
+
+.top__slider {
+  max-height: 700px;
 }
 
 .top__slider-item {
@@ -577,6 +586,11 @@ body {
 
 .top__slider-info {
   width: 645px;
+}
+
+.top .slick-list,
+.top .slick-track {
+  max-height: 598px;
 }
 
 .new-collection__title {
