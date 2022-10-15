@@ -8,13 +8,13 @@
     <title>Glodesing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap&_v=20221001205328"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap&_v=20221016010253"
         rel="stylesheet">
     <link rel="icon" href="files/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20221001205328" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20221016010253" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20221001205328">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221001205328">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20221016010253">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221016010253">
 
     
 </head>
@@ -51,6 +51,12 @@
           <button class="header__btn">
             <img src="img/btn.svg" alt="icon-menu">
           </button>
+          <button class="header__btn-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <div class="rightside-menu">
             <button class="rightside-menu__close">
               <picture><source srcset="img/Path.webp" type="image/webp"><img src="img/Path.png" alt="path"></picture>
@@ -78,6 +84,20 @@
     </header>
   
     <main class="main">
+      <div class="breadcrumbs">
+      
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./about.html">Информация</a>
+          </li>
+         
+         
+        </ul>
+      
+      </div>
       <section class="top">
         
           <div class="top__inner">
@@ -255,39 +275,50 @@
           </div>
           <div class="gallery__inner">
             <div class="gallery__items mix category-bedroom">
+
               <a class="gallery__item" href="#"><picture><source srcset="img/bedroom3.webp" type="image/webp"><img class="gallery__item-img gallery__item-img-first" src="img/bedroom3.jpg" alt="bedroom"></picture></a>
+              <div class="gallery__items-flex">
               <a class="gallery__item" href="#"><picture><source srcset="img/bedroom2.webp" type="image/webp"><img class="gallery__item-img" src="img/bedroom2.png" alt="bedroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/bedroom1.webp" type="image/webp"><img class="gallery__item-img" src="img/bedroom1.png" alt="bedroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/bedroom4.webp" type="image/webp"><img class="gallery__item-img" src="img/bedroom4.png" alt="bedroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/bedroom5.webp" type="image/webp"><img class="gallery__item-img" src="img/bedroom5.png" alt="bedroom"></picture></a>            
+              </div>
             </div>
             <div class="gallery__items mix category-livingroom">
               <a class="gallery__item" href="#"><picture><source srcset="img/livingroom6.webp" type="image/webp"><img class="gallery__item-img gallery__item-img-first" src="img/livingroom6.jpg" alt="livingroom"></picture></a>
+              <div class="gallery__items-flex">
               <a class="gallery__item" href="#"><picture><source srcset="img/livingroom7.webp" type="image/webp"><img class="gallery__item-img" src="img/livingroom7.jpg" alt="livingroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/livingroom3.webp" type="image/webp"><img class="gallery__item-img" src="img/livingroom3.jpg" alt="livingroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/livingroom4.webp" type="image/webp"><img class="gallery__item-img" src="img/livingroom4.jpg" alt="livingroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/livingroom5.webp" type="image/webp"><img class="gallery__item-img" src="img/livingroom5.jpg" alt="livingroom"></picture></a>
-             </div>
+            </div> 
+            </div>
             <div class="gallery__items mix category-office">
               <a class="gallery__item" href="#"><picture><source srcset="img/office1.webp" type="image/webp"><img class="gallery__item-img gallery__item-img-first" src="img/office1.jpg" alt="office"></picture></a>
+              <div class="gallery__items-flex">
               <a class="gallery__item" href="#"><picture><source srcset="img/office2.webp" type="image/webp"><img class="gallery__item-img" src="img/office2.jpg" alt="office"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/office3.webp" type="image/webp"><img class="gallery__item-img" src="img/office3.jpg" alt="office"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/office4.webp" type="image/webp"><img  class="gallery__item-img" src="img/office4.jpg" alt="office"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/office5.webp" type="image/webp"><img  class="gallery__item-img" src="img/office5.jpg" alt="office"></picture></a>
             </div>
+            </div>
             <div class="gallery__items mix category-diningroom">
               <a class="gallery__item" href="#"><picture><source srcset="img/diningroom1.webp" type="image/webp"><img class="gallery__item-img gallery__item-img-first" src="img/diningroom1.jpg" alt="diningroom"></picture></a>
+               <div class="gallery__items-flex">
               <a class="gallery__item" href="#"><picture><source srcset="img/diningroom2.webp" type="image/webp"><img class="gallery__item-img" src="img/diningroom2.jpg" alt="diningroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/diningroom3.webp" type="image/webp"><img class="gallery__item-img" src="img/diningroom3.jpg" alt="diningroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/diningroom4.webp" type="image/webp"><img class="gallery__item-img" src="img/diningroom4.jpg" alt="diningroom"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/diningroom5.webp" type="image/webp"><img class="gallery__item-img" src="img/diningroom5.jpg" alt="diningroom"></picture></a>  
             </div>
+            </div>
             <div class="gallery__items mix category-chair">
               <a class="gallery__item" href="#"><picture><source srcset="img/chair6.webp" type="image/webp"><img class="gallery__item-img gallery__item-img-first" src="img/chair6.jpg" alt="chair"></picture></a>
+               <div class="gallery__items-flex">
               <a class="gallery__item" href="#"><picture><source srcset="img/chair7.webp" type="image/webp"><img class="gallery__item-img" src="img/chair7.jpg" alt="chair"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/chair9.webp" type="image/webp"><img class="gallery__item-img" src="img/chair9.jpg" alt="chair"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/chair8.webp" type="image/webp"><img class="gallery__item-img" src="img/chair8.jpg" alt="chair"></picture></a>
               <a class="gallery__item" href="#"><picture><source srcset="img/chair5.webp" type="image/webp"><img class="gallery__item-img" src="img/chair5.jpg" alt="chair"></picture></a>  
+            </div>
             </div>
           </div>
         </div>
@@ -389,12 +420,12 @@
 
  
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js?_v=20221001205328"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js?_v=20221001205328"></script>
-<script src="files/slick.min.js?_v=20221001205328"></script>
-<script src="files/mixitup.min.js?_v=20221001205328"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20221001205328"></script>
-<script src="js/app.min.js?_v=20221001205328"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js?_v=20221016010253"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js?_v=20221016010253"></script>
+<script src="files/slick.min.js?_v=20221016010253"></script>
+<script src="files/mixitup.min.js?_v=20221016010253"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20221016010253"></script>
+<script src="js/app.min.js?_v=20221016010253"></script>
 </body>
 
 </html>
