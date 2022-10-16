@@ -862,7 +862,7 @@ body {
 .gallery__item-img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 393px;
+  width: 310px;
   height: 563px;
   max-height: 1150px;
   padding: 15px;
